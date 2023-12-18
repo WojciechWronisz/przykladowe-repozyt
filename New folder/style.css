@@ -1,0 +1,81 @@
+body {
+    background-color: #808080; 
+  }
+  .about-me {
+    background-color: red; 
+    font-weight: bold; 
+    font-style: italic; 
+    margin-left: 2px; 
+    padding-bottom: 2px; 
+    float: centre; 
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+  
+  .colorful-table {
+    width: 50%; 
+  }
+  
+  .colorful-table th,
+  .colorful-table td {
+    border: 1px solid black; 
+    padding: 8px; 
+  }
+  
+  .row1 {
+    background-color: lightgray; 
+  }
+  
+  .row2 {
+    background-color: lightblue; 
+  }
+  
+  .row3 {
+    background-color: lightgreen; 
+  }
+  
+  .row4 {
+    background-color: lightyellow; 
+  }
+  .lista_hobby {
+    list-style-type: upper-roman; 
+    padding-left: 20px; 
+  }
+  
+  .lista_hobby li {
+    display: block; 
+  }
+
+
+
+#wyslij {
+    background-color: #0066ff;
+    color: white; 
+    border: 1px solid #0066ff; 
+    padding: 8px 16px; 
+    cursor: pointer; 
+  }
+
+  #wyslij:hover {
+    background-color: #0044cc; 
+    border-color: #0044cc; 
+  }
+  
